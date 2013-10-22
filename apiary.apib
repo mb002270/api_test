@@ -4,18 +4,9 @@ HOST: www.google.com
 # DigitalGlobe Sample Service
 Welcome to the DigitalGlobe Alpha service definition
 
-# Group Ancillary Data
+## GET /ancillary
 
-## GET /ancillary{/id}
-+ Parameters
++ Response 200 (text/plain)
 
-    + id (number) ... Id of the piece of ancillary data
-
-+ Response 200 (application/xml)
-
-    + Body
-
-        <AncillaryData xmlns="x-urn:digitalglobe">
-            <FileName>/asdf/asdf/asdf</FileName>
-        </AncillaryData>
+        Hello
 
