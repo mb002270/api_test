@@ -6,23 +6,32 @@ Welcome to the DigitalGlobe Alpha service definition
 
 # Group Ancillary Data
 
-## GET /ancillary
-+ Headers
+## Ancillary Actions [/ancillary]
 
-        Accept: application/json
+### Retrieve a piece of ancillary [GET]
+Request a piece of ancillary data
+
++ Request Plain Text Message
+
+    + Headers
+            
+            Accept: text/plain
 
 + Response 200 (text/plain)
 
-    + Body 
+    + Body
     
-        ```
-        Hello
-        ```
+            Hello
 
++ Request JSON Message
+
+    + Headers
+    
+            Accept: application/json
+        
 + Response 200 (application/json)
 
     + Body
     
-        ```
-        {"message":"Hello"}
-
+            {"message": "Hello"}
+        
