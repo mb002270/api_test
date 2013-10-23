@@ -1,4 +1,4 @@
-api_test
+DG API Test
 ========
 
-This is a test for apiary's automatic github linking
+This is a test area just testing out APIARY's api-blueprint
