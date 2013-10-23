@@ -20,4 +20,18 @@ Request a piece of ancillary data
     + Body
     
             <Ancillary><Path>/asdf/asdf</Path></Ancillary>
-        
+            
+### Save a new piece of ancillary [PUT]
+
++ Request (application/xml)
+
+    + Body
+    
+            <AncillaryData><AncillaryType>FPE</AncillaryType><SensorVehicle>WV02</SensorVehicle><StartTime>2012-05-20T07:15:08.597780Z</StartTime><EndTime>2012-05-20T07:15:20.209717Z<EndTime></AncillaryData>
+            
++ Response 201 (application/xml)
+
+    + Body
+            
+            <CallStatus><Status>CREATED</Status></CallStatus>
+            
