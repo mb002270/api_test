@@ -19,7 +19,9 @@ Request a piece of ancillary data
 
     + Body
     
-            <Ancillary><Path>/asdf/asdf</Path></Ancillary>
+        ```
+        <Ancillary><Path>/asdf/asdf</Path></Ancillary>
+        ```
 
 ## Query Ancillary By Sensor and Time Range [/ancillary/{sensor}/{?starttime}{?endtime}]
 
@@ -36,7 +38,9 @@ Request ancillary data
 
     + Body
     
-            <Ancillary><Path>/asdf/asdf</Path></Ancillary>
+        ```
+        <Ancillary><Path>/asdf/asdf</Path></Ancillary>
+        ```
     
 
 ## Create Ancillary Actions [/ancillary]
@@ -47,11 +51,14 @@ Request ancillary data
 
     + Body
     
-            <AncillaryData><AncillaryType>FPE</AncillaryType><SensorVehicle>WV02</SensorVehicle><StartTime>2012-05-20T07:15:08.597780Z</StartTime><EndTime>2012-05-20T07:15:20.209717Z<EndTime></AncillaryData>
+        ```
+        <AncillaryData><AncillaryType>FPE</AncillaryType><SensorVehicle>WV02</SensorVehicle><StartTime>2012-05-20T07:15:08.597780Z</StartTime><EndTime>2012-05-20T07:15:20.209717Z<EndTime></AncillaryData>
+        ```
             
 + Response 201 (application/xml)
 
     + Body
-            
-            <CallStatus><Id>123</Id><Status>CREATED</Status></CallStatus>
-            
+    
+        ```
+        <CallStatus><Id>123</Id><Status>CREATED</Status></CallStatus>
+        ```
